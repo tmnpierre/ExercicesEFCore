@@ -1,12 +1,4 @@
-﻿public enum StatutReservation
-{
-    Prévu,
-    EnCours,
-    Fini,
-    Annulé
-}
-
-public class Reservation
+﻿public class Reservation
 {
     public int ReservationId { get; set; }
     public StatutReservation Statut { get; set; }

@@ -1,11 +1,4 @@
-﻿public enum StatutChambre
-{
-    Libre,
-    Occupé,
-    EnNettoyage
-}
-
-public class Chambre
+﻿public class Chambre
 {
     public int ChambreId { get; set; }
     public StatutChambre Statut { get; set; }
