@@ -34,7 +34,8 @@ public class MyHotelDbContext : DbContext
             .HasMany(r => r.Chambres)
             .WithMany(c => c.Reservations);
 
+        modelBuilder.Entity<Chambre>()
+            .Property(c => c.Tarif)
+            .HasColumnType("decimal(18, 2)");
     }
-
-
 }
