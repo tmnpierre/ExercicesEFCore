@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data Access Layer",
+    "\\Data Access Layer\\Context",
+    "\\Data Access Layer\\Repositories",
+    "\\Data Access Layer\\Repositories\\Implementations",
+    "\\Data Access Layer\\Repositories\\Interfaces",
+    "\\Domain Layer",
+    "\\Domain Layer\\Entities",
+    "\\Domain Layer\\Enums"
+  ],
+  "PreviewInSolutionExplorer": false
+}
